@@ -13,11 +13,16 @@ namespace JenkinsTestApp
             for(int i =0; i<10; i++)
             {
                 Console.WriteLine("Hello World " + i);
+                if (i == 0)
+                {
+                    int result = 10 / i;
+                }
+                    
             }
             
-            Console.WriteLine("press any key to close");
-             var tmp = Console.ReadLine();
-
+            //Console.WriteLine("press any key to close");
+             //var tmp = Console.ReadLine();
+           
         }
     }
 }
