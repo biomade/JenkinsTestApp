@@ -10,7 +10,11 @@ namespace JenkinsTestApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            for(int i =0; i<10; i++)
+            {
+                Console.WriteLine("Hello World " + i);
+            }
+            
             Console.WriteLine("press any key to close");
              var tmp = Console.ReadLine();
         }
