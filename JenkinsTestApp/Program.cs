@@ -13,10 +13,10 @@ namespace JenkinsTestApp
             for(int i =0; i<10; i++)
             {
                 Console.WriteLine("Hello World " + i);
-                if (i == 0)
-                {
-                    int result = 10 / i;
-                }
+                //if (i == 0)
+                //{
+                //    int result = 10 / i;
+                //}
                     
             }
             
