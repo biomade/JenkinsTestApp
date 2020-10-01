@@ -6,23 +6,15 @@ using System.Threading.Tasks;
 
 namespace JenkinsTestApp
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            for(int i =0; i<10; i++)
-            {
-                Console.WriteLine("Hello World " + i);
-                //if (i == 0)
-                //{
-                //    int result = 10 / i;
-                //}
-                    
-            }
-            
-            //Console.WriteLine("press any key to close");
-             //var tmp = Console.ReadLine();
-           
+            //for(int i =0; i<10; i++)
+            //{
+            //    Console.WriteLine("Hello World " + i);             
+            //}
+            Console.WriteLine("Hello Jenkins");
         }
     }
 }
